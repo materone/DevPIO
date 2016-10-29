@@ -1,0 +1,47 @@
+{
+    "description": "Winbond SPI flash library for Arduino.", 
+    "repository": {
+        "url": "https://github.com/Marzogh/SPIFlash", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif8266", 
+        "intel_arc32", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Prajwal Bhattaram", 
+            "url": null, 
+            "email": "marzogh@icloud.com"
+        }
+    ], 
+    "keywords": [
+        "storage", 
+        "data"
+    ], 
+    "id": 806, 
+    "name": "SPIFlash", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "2.4.0", 
+    "homepage": null
+}

@@ -1,0 +1,46 @@
+{
+    "description": "A library that adds high speed image drawing functions from SD to UTFT.", 
+    "repository": {
+        "url": "https://github.com/ghlawrence2000/UTFT_SdRaw", 
+        "type": "git"
+    }, 
+    "platforms": [
+        "atmelavr", 
+        "atmelsam", 
+        "espressif8266", 
+        "intel_arc32", 
+        "microchippic32", 
+        "nordicnrf51", 
+        "teensy", 
+        "timsp430"
+    ], 
+    "export": {
+        "exclude": [
+            "extras", 
+            "docs", 
+            "tests", 
+            "test", 
+            "*.doxyfile", 
+            "*.pdf"
+        ], 
+        "include": null
+    }, 
+    "authors": [
+        {
+            "maintainer": true, 
+            "name": "Graham Lawrence", 
+            "url": null, 
+            "email": "ghlawrence2000@yahoo.co.uk"
+        }
+    ], 
+    "keywords": [
+        "display"
+    ], 
+    "id": 565, 
+    "name": "UTFT_SdRaw", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "version": "1.2.4", 
+    "homepage": null
+}
