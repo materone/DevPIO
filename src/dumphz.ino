@@ -2,6 +2,7 @@
 #include <SPI.h>
 #include <Streaming.h>
 #include <UTFT.h>
+#include <mqtt.h>
 
 const uint8_t PIN_FLASH_CS = 3;
 
